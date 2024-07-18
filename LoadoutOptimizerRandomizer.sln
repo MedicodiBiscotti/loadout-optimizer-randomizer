@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoadoutOptimizerRandomizer.API", "LoadoutOptimizerRandomizer.API\LoadoutOptimizerRandomizer.API.csproj", "{12EB2190-4D18-4E03-8165-163D47DD676C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoadoutOptimizerRandomizer.Repository", "LoadoutOptimizerRandomizer.Repository\LoadoutOptimizerRandomizer.Repository.csproj", "{F8903011-2335-47CC-AA60-5D7AE41126E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoadoutOptimizerRandomizer.Model", "LoadoutOptimizerRandomizer.Model\LoadoutOptimizerRandomizer.Model.csproj", "{69F0C864-5B5F-44EA-92FE-85C669834CC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoadoutOptimizerRandomizer.Core", "LoadoutOptimizerRandomizer.Core\LoadoutOptimizerRandomizer.Core.csproj", "{3B83B35E-EBC2-494D-B018-EEAA48AF191F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12EB2190-4D18-4E03-8165-163D47DD676C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12EB2190-4D18-4E03-8165-163D47DD676C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12EB2190-4D18-4E03-8165-163D47DD676C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12EB2190-4D18-4E03-8165-163D47DD676C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8903011-2335-47CC-AA60-5D7AE41126E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8903011-2335-47CC-AA60-5D7AE41126E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8903011-2335-47CC-AA60-5D7AE41126E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8903011-2335-47CC-AA60-5D7AE41126E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69F0C864-5B5F-44EA-92FE-85C669834CC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69F0C864-5B5F-44EA-92FE-85C669834CC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69F0C864-5B5F-44EA-92FE-85C669834CC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69F0C864-5B5F-44EA-92FE-85C669834CC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B83B35E-EBC2-494D-B018-EEAA48AF191F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B83B35E-EBC2-494D-B018-EEAA48AF191F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B83B35E-EBC2-494D-B018-EEAA48AF191F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B83B35E-EBC2-494D-B018-EEAA48AF191F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
