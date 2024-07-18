@@ -7,7 +7,8 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Services\" />
+        <ProjectReference Include="..\LoadoutOptimizerRandomizer.Model\LoadoutOptimizerRandomizer.Model.csproj"/>
+        <ProjectReference Include="..\LoadoutOptimizerRandomizer.Repository\LoadoutOptimizerRandomizer.Repository.csproj"/>
     </ItemGroup>
 
 </Project>
