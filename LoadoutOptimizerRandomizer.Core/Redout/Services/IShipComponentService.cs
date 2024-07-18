@@ -1,8 +1,8 @@
-using LoadoutOptimizerRandomizer.Model.Redout.Entities;
+using LoadoutOptimizerRandomizer.Model.Redout.Dtos;
 
 namespace LoadoutOptimizerRandomizer.Core.Redout.Services;
 
 public interface IShipComponentService
 {
-    Task<List<ShipComponent>> GetShipComponentsAsync();
+    Task<List<ShipComponentDto>> GetShipComponentsAsync();
 }
