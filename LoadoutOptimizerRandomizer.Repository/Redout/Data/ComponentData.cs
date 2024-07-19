@@ -8,7 +8,9 @@ public static class ComponentData
     // Short name used as key/index
     public static readonly Dictionary<string, ShipComponent> Components = new()
     {
-        // Ships. Power rating can be cheesed to 184 for all using loadout bug.
+        // Ships.
+		// Power rating can be cheesed to be the same for all ships using loadout bug.
+		// TODO: Add setting to set all ships to a specific power to accommodate this cheat.
         {
             "LUN", new ShipComponent(ComponentType.Ship, "Lunare", "LUN", ComponentClass.None, 184,
                 new Dictionary<Stat, int>
@@ -22,7 +24,7 @@ public static class ComponentData
                 })
         },
         {
-            "CNQ", new ShipComponent(ComponentType.Ship, "Conqueror", "CNQ", ComponentClass.None, 184,
+            "CNQ", new ShipComponent(ComponentType.Ship, "Conqueror", "CNQ", ComponentClass.None, 186,
                 new Dictionary<Stat, int>
                 {
                     { Stat.Speed, 7 },
@@ -34,7 +36,7 @@ public static class ComponentData
                 })
         },
         {
-            "HEL", new ShipComponent(ComponentType.Ship, "Helix", "HEL", ComponentClass.None, 184,
+            "HEL", new ShipComponent(ComponentType.Ship, "Helix", "HEL", ComponentClass.None, 182,
                 new Dictionary<Stat, int>
                 {
                     { Stat.Speed, 5 },
@@ -46,7 +48,7 @@ public static class ComponentData
                 })
         },
         {
-            "ASE", new ShipComponent(ComponentType.Ship, "Asera", "ASE", ComponentClass.None, 184,
+            "ASE", new ShipComponent(ComponentType.Ship, "Asera", "ASE", ComponentClass.None, 185,
                 new Dictionary<Stat, int>
                 {
                     { Stat.Speed, 2 },
@@ -70,7 +72,7 @@ public static class ComponentData
                 })
         },
         {
-            "WRG", new ShipComponent(ComponentType.Ship, "WALLACE-RG", "WRG", ComponentClass.None, 184,
+            "WRG", new ShipComponent(ComponentType.Ship, "WALLACE-RG", "WRG", ComponentClass.None, 183,
                 new Dictionary<Stat, int>
                 {
                     { Stat.Speed, 4 },
@@ -82,7 +84,7 @@ public static class ComponentData
                 })
         },
         {
-            "SUL", new ShipComponent(ComponentType.Ship, "Sulha", "SUL", ComponentClass.None, 184,
+            "SUL", new ShipComponent(ComponentType.Ship, "Sulha", "SUL", ComponentClass.None, 185,
                 new Dictionary<Stat, int>
                 {
                     { Stat.Speed, 8 },
@@ -94,7 +96,7 @@ public static class ComponentData
                 })
         },
         {
-            "MAN", new ShipComponent(ComponentType.Ship, "Mantis", "MAN", ComponentClass.None, 184,
+            "MAN", new ShipComponent(ComponentType.Ship, "Mantis", "MAN", ComponentClass.None, 183,
                 new Dictionary<Stat, int>
                 {
                     { Stat.Speed, 4 },
@@ -118,7 +120,7 @@ public static class ComponentData
                 })
         },
         {
-            "KGW", new ShipComponent(ComponentType.Ship, "Koeniggswerth", "KGW", ComponentClass.None, 184,
+            "KGW", new ShipComponent(ComponentType.Ship, "Koeniggswerth", "KGW", ComponentClass.None, 186,
                 new Dictionary<Stat, int>
                 {
                     { Stat.Speed, 2 },
