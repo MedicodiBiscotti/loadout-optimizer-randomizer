@@ -763,6 +763,174 @@ public static class ComponentData
                     { Stat.Stability, 0 }
                 })
         },
+        {
+            "LÌNG", new ShipComponent(ComponentType.Hull, "Lìng", "LÌNG", ComponentClass.Green, 16,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, 0 },
+                    { Stat.Thrust, 0 },
+                    { Stat.Durability, 2 },
+                    { Stat.Strafe, 0 },
+                    { Stat.Steering, 0 },
+                    { Stat.Stability, 0 }
+                })
+        },
+        {
+            "45P1", new ShipComponent(ComponentType.Hull, "45P15", "45P1", ComponentClass.Green, 32,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, 0 },
+                    { Stat.Thrust, 0 },
+                    { Stat.Durability, 4 },
+                    { Stat.Strafe, 0 },
+                    { Stat.Steering, 0 },
+                    { Stat.Stability, 0 }
+                })
+        },
+        {
+            "8-TM", new ShipComponent(ComponentType.Hull, "8-TM", "8-TM", ComponentClass.Green, 48,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, 2 },
+                    { Stat.Thrust, 0 },
+                    { Stat.Durability, 3 },
+                    { Stat.Strafe, 0 },
+                    { Stat.Steering, 0 },
+                    { Stat.Stability, 0 }
+                })
+        },
+        {
+            "YI", new ShipComponent(ComponentType.Hull, "Yi", "YI", ComponentClass.Yellow, 72,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, 2 },
+                    { Stat.Thrust, 0 },
+                    { Stat.Durability, 6 },
+                    { Stat.Strafe, 0 },
+                    { Stat.Steering, 0 },
+                    { Stat.Stability, 0 }
+                })
+        },
+        {
+            "8-TN", new ShipComponent(ComponentType.Hull, "8-TN", "8-TN", ComponentClass.Yellow, 80,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, 4 },
+                    { Stat.Thrust, 0 },
+                    { Stat.Durability, 4 },
+                    { Stat.Strafe, 0 },
+                    { Stat.Steering, 0 },
+                    { Stat.Stability, 0 }
+                })
+        },
+        {
+            "P4RM", new ShipComponent(ComponentType.Hull, "P4RM4", "P4RM", ComponentClass.Yellow, 104,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, 2 },
+                    { Stat.Thrust, 0 },
+                    { Stat.Durability, 10 },
+                    { Stat.Strafe, 0 },
+                    { Stat.Steering, 0 },
+                    { Stat.Stability, 0 }
+                })
+        },
+        {
+            "ÈR", new ShipComponent(ComponentType.Hull, "Èr", "ÈR", ComponentClass.Yellow, 112,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, 4 },
+                    { Stat.Thrust, 0 },
+                    { Stat.Durability, 8 },
+                    { Stat.Strafe, 0 },
+                    { Stat.Steering, 0 },
+                    { Stat.Stability, 0 }
+                })
+        },
+        {
+            "8-TW", new ShipComponent(ComponentType.Hull, "8-TW", "8-TW", ComponentClass.Pink, 152,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, 6 },
+                    { Stat.Thrust, 0 },
+                    { Stat.Durability, 10 },
+                    { Stat.Strafe, 0 },
+                    { Stat.Steering, 0 },
+                    { Stat.Stability, 0 }
+                })
+        },
+        {
+            "SÀN", new ShipComponent(ComponentType.Hull, "Sàn", "SÀN", ComponentClass.Pink, 156,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, 3 },
+                    { Stat.Thrust, 0 },
+                    { Stat.Durability, 15 },
+                    { Stat.Strafe, 0 },
+                    { Stat.Steering, 0 },
+                    { Stat.Stability, 0 }
+                })
+        },
+        {
+            "8UCK", new ShipComponent(ComponentType.Hull, "8UCKL3R", "8UCK", ComponentClass.Pink, 156,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, 1 },
+                    { Stat.Thrust, 0 },
+                    { Stat.Durability, 18 },
+                    { Stat.Strafe, 0 },
+                    { Stat.Steering, 0 },
+                    { Stat.Stability, 0 }
+                })
+        },
+        {
+            "HSKO", new ShipComponent(ComponentType.Hull, "Signature Koeniggswerth", "HSKO", ComponentClass.Purple, 182,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, 0 },
+                    { Stat.Thrust, 0 },
+                    { Stat.Durability, 22 },
+                    { Stat.Strafe, 0 },
+                    { Stat.Steering, -3 },
+                    { Stat.Stability, 0 }
+                })
+        },
+        {
+            "HSAK", new ShipComponent(ComponentType.Hull, "Signature Akhal-Tech", "HSAK", ComponentClass.Purple, 176,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, 8 },
+                    { Stat.Thrust, -2 },
+                    { Stat.Durability, 17 },
+                    { Stat.Strafe, 0 },
+                    { Stat.Steering, -6 },
+                    { Stat.Stability, 0 }
+                })
+        },
+        {
+            "HSBU", new ShipComponent(ComponentType.Hull, "Signature Buran", "HSBU", ComponentClass.Purple, 176,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, 10 },
+                    { Stat.Thrust, -4 },
+                    { Stat.Durability, 15 },
+                    { Stat.Strafe, 0 },
+                    { Stat.Steering, -4 },
+                    { Stat.Stability, 0 }
+                })
+        },
+        {
+            "HSBE", new ShipComponent(ComponentType.Hull, "Signature Behemoth", "HSBE", ComponentClass.Purple, 180,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, 3 },
+                    { Stat.Thrust, -2 },
+                    { Stat.Durability, 19 },
+                    { Stat.Strafe, 0 },
+                    { Stat.Steering, 0 },
+                    { Stat.Stability, 0 }
+                })
+        },
         
         // Intercoolers
         {
