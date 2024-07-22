@@ -945,6 +945,174 @@ public static class ComponentData
                     { Stat.Stability, 0 }
                 })
         },
+        {
+            "F850", new ShipComponent(ComponentType.Intercooler, "F850", "F850", ComponentClass.Green, 20,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, 0 },
+                    { Stat.Thrust, 2 },
+                    { Stat.Durability, 0 },
+                    { Stat.Strafe, 0 },
+                    { Stat.Steering, 0 },
+                    { Stat.Stability, 0 }
+                })
+        },
+        {
+            "70W3", new ShipComponent(ComponentType.Intercooler, "70W3R", "70W3", ComponentClass.Green, 36,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, 0 },
+                    { Stat.Thrust, 2 },
+                    { Stat.Durability, 2 },
+                    { Stat.Strafe, 0 },
+                    { Stat.Steering, 0 },
+                    { Stat.Stability, 0 }
+                })
+        },
+        {
+            "TLUR", new ShipComponent(ComponentType.Intercooler, "Uriel", "TLUR", ComponentClass.Green, 40,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, 0 },
+                    { Stat.Thrust, 4 },
+                    { Stat.Durability, 0 },
+                    { Stat.Strafe, 0 },
+                    { Stat.Steering, 0 },
+                    { Stat.Stability, 0 }
+                })
+        },
+        {
+            "TLGA", new ShipComponent(ComponentType.Intercooler, "Gabriel", "TLGA", ComponentClass.Yellow, 70,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, 0 },
+                    { Stat.Thrust, 7 },
+                    { Stat.Durability, 0 },
+                    { Stat.Strafe, 0 },
+                    { Stat.Steering, 0 },
+                    { Stat.Stability, 0 }
+                })
+        },
+        {
+            "F880", new ShipComponent(ComponentType.Intercooler, "F880", "F880", ComponentClass.Yellow, 96,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, 0 },
+                    { Stat.Thrust, 8 },
+                    { Stat.Durability, 2 },
+                    { Stat.Strafe, 0 },
+                    { Stat.Steering, 0 },
+                    { Stat.Stability, 0 }
+                })
+        },
+        {
+            "K33P", new ShipComponent(ComponentType.Intercooler, "K33P", "K33P", ComponentClass.Yellow, 108,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, 0 },
+                    { Stat.Thrust, 6 },
+                    { Stat.Durability, 6 },
+                    { Stat.Strafe, 0 },
+                    { Stat.Steering, 0 },
+                    { Stat.Stability, 0 }
+                })
+        },
+        {
+            "F980", new ShipComponent(ComponentType.Intercooler, "F980", "F980", ComponentClass.Yellow, 116,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, 0 },
+                    { Stat.Thrust, 10 },
+                    { Stat.Durability, 2 },
+                    { Stat.Strafe, 0 },
+                    { Stat.Steering, 0 },
+                    { Stat.Stability, 0 }
+                })
+        },
+        {
+            "C457", new ShipComponent(ComponentType.Intercooler, "C457L3", "C457", ComponentClass.Pink, 164,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, 0 },
+                    { Stat.Thrust, 10 },
+                    { Stat.Durability, 8 },
+                    { Stat.Strafe, 0 },
+                    { Stat.Steering, 0 },
+                    { Stat.Stability, 0 }
+                })
+        },
+        {
+            "TLMI", new ShipComponent(ComponentType.Intercooler, "Michael", "TLMI", ComponentClass.Pink, 170,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, 0 },
+                    { Stat.Thrust, 17 },
+                    { Stat.Durability, 0 },
+                    { Stat.Strafe, 0 },
+                    { Stat.Steering, 0 },
+                    { Stat.Stability, 0 }
+                })
+        },
+        {
+            "F990", new ShipComponent(ComponentType.Intercooler, "F990", "F990", ComponentClass.Pink, 168,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, 0 },
+                    { Stat.Thrust, 12 },
+                    { Stat.Durability, 6 },
+                    { Stat.Strafe, 0 },
+                    { Stat.Steering, 0 },
+                    { Stat.Stability, 0 }
+                })
+        },
+        {
+            "ISBE", new ShipComponent(ComponentType.Intercooler, "Signature Behemoth", "ISBE", ComponentClass.Purple, 190,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, -8 },
+                    { Stat.Thrust, 20 },
+                    { Stat.Durability, 10 },
+                    { Stat.Strafe, 0 },
+                    { Stat.Steering, 0 },
+                    { Stat.Stability, -6 }
+                })
+        },
+        {
+            "ISES", new ShipComponent(ComponentType.Intercooler, "Signature ESA-AGR", "ISES", ComponentClass.Purple, 189,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, -1 },
+                    { Stat.Thrust, 15 },
+                    { Stat.Durability, 7 },
+                    { Stat.Strafe, 0 },
+                    { Stat.Steering, 0 },
+                    { Stat.Stability, -1 }
+                })
+        },
+        {
+            "ISKO", new ShipComponent(ComponentType.Intercooler, "Signature Koeniggswerth", "ISKO", ComponentClass.Purple, 189,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, -5 },
+                    { Stat.Thrust, 19 },
+                    { Stat.Durability, 9 },
+                    { Stat.Strafe, 0 },
+                    { Stat.Steering, 0 },
+                    { Stat.Stability, -5 }
+                })
+        },
+        {
+            "ISBU", new ShipComponent(ComponentType.Intercooler, "Signature Buran", "ISBU", ComponentClass.Purple, 184,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, -1 },
+                    { Stat.Thrust, 22 },
+                    { Stat.Durability, 2 },
+                    { Stat.Strafe, 0 },
+                    { Stat.Steering, 0 },
+                    { Stat.Stability, -8 }
+                })
+        },
         
         // Electronic Stability Controls
         {
