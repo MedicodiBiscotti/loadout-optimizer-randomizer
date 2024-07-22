@@ -1126,6 +1126,198 @@ public static class ComponentData
                     { Stat.Steering, 0 },
                     { Stat.Stability, 0 }
                 })
-        }
+        },
+        {
+            "TENGU", new ShipComponent(ComponentType.ElectronicStabilityControl, "Tengu", "TENGU", ComponentClass.Green, 15,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, 0 },
+                    { Stat.Thrust, 0 },
+                    { Stat.Durability, 0 },
+                    { Stat.Strafe, 2 },
+                    { Stat.Steering, 0 },
+                    { Stat.Stability, 1 }
+                })
+        },
+        {
+            "NUE", new ShipComponent(ComponentType.ElectronicStabilityControl, "Nue", "NUE", ComponentClass.Green, 20,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, 0 },
+                    { Stat.Thrust, 0 },
+                    { Stat.Durability, 0 },
+                    { Stat.Strafe, 3 },
+                    { Stat.Steering, 0 },
+                    { Stat.Stability, 1 }
+                })
+        },
+        {
+            "TH60", new ShipComponent(ComponentType.ElectronicStabilityControl, "Theta60", "TH60", ComponentClass.Green, 25,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, 0 },
+                    { Stat.Thrust, 0 },
+                    { Stat.Durability, 0 },
+                    { Stat.Strafe, 3 },
+                    { Stat.Steering, 0 },
+                    { Stat.Stability, 2 }
+                })
+        },
+        {
+            "AGIZ", new ShipComponent(ComponentType.ElectronicStabilityControl, "AgileZ", "AGIZ", ComponentClass.Green, 30,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, 0 },
+                    { Stat.Thrust, 0 },
+                    { Stat.Durability, 0 },
+                    { Stat.Strafe, 5 },
+                    { Stat.Steering, 0 },
+                    { Stat.Stability, 1 }
+                })
+        },
+        {
+            "AGIX", new ShipComponent(ComponentType.ElectronicStabilityControl, "AgileX", "AGIZ", ComponentClass.Yellow, 40,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, 0 },
+                    { Stat.Thrust, 0 },
+                    { Stat.Durability, 0 },
+                    { Stat.Strafe, 8 },
+                    { Stat.Steering, 0 },
+                    { Stat.Stability, 0 }
+                })
+        },
+        {
+            "ET61", new ShipComponent(ComponentType.ElectronicStabilityControl, "Eta61", "ET61", ComponentClass.Yellow, 40,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, 0 },
+                    { Stat.Thrust, 0 },
+                    { Stat.Durability, 0 },
+                    { Stat.Strafe, 5 },
+                    { Stat.Steering, 0 },
+                    { Stat.Stability, 3 }
+                })
+        },
+        {
+            "AGIK", new ShipComponent(ComponentType.ElectronicStabilityControl, "AgileK", "AGIK", ComponentClass.Yellow, 55,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, 0 },
+                    { Stat.Thrust, 0 },
+                    { Stat.Durability, 0 },
+                    { Stat.Strafe, 10 },
+                    { Stat.Steering, 0 },
+                    { Stat.Stability, 1 }
+                })
+        },
+        {
+            "ONI", new ShipComponent(ComponentType.ElectronicStabilityControl, "Oni", "ONI", ComponentClass.Yellow, 55,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, 0 },
+                    { Stat.Thrust, 0 },
+                    { Stat.Durability, 0 },
+                    { Stat.Strafe, 9 },
+                    { Stat.Steering, 0 },
+                    { Stat.Stability, 2 }
+                })
+        },
+        {
+            "SG69", new ShipComponent(ComponentType.ElectronicStabilityControl, "Sigma69", "SG69", ComponentClass.Yellow, 55,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, 0 },
+                    { Stat.Thrust, 0 },
+                    { Stat.Durability, 0 },
+                    { Stat.Strafe, 7 },
+                    { Stat.Steering, 0 },
+                    { Stat.Stability, 4 }
+                })
+        },
+        {
+            "PI70", new ShipComponent(ComponentType.ElectronicStabilityControl, "Phi70", "PI70", ComponentClass.Pink, 80,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, 0 },
+                    { Stat.Thrust, 0 },
+                    { Stat.Durability, 0 },
+                    { Stat.Strafe, 12 },
+                    { Stat.Steering, 0 },
+                    { Stat.Stability, 4 }
+                })
+        },
+        {
+            "RYUU", new ShipComponent(ComponentType.ElectronicStabilityControl, "Ryuu", "RYUU", ComponentClass.Pink, 85,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, 0 },
+                    { Stat.Thrust, 0 },
+                    { Stat.Durability, 0 },
+                    { Stat.Strafe, 15 },
+                    { Stat.Steering, 0 },
+                    { Stat.Stability, 2 }
+                })
+        },
+        {
+            "AGIY", new ShipComponent(ComponentType.ElectronicStabilityControl, "AgileY", "AGIY", ComponentClass.Pink, 90,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, 0 },
+                    { Stat.Thrust, 0 },
+                    { Stat.Durability, 0 },
+                    { Stat.Strafe, 18 },
+                    { Stat.Steering, 0 },
+                    { Stat.Stability, 0 }
+                })
+        },
+        {
+            "ESLU", new ShipComponent(ComponentType.ElectronicStabilityControl, "Signature Lunare", "ESLU", ComponentClass.Purple, 96,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, -1 },
+                    { Stat.Thrust, 0 },
+                    { Stat.Durability, -3 },
+                    { Stat.Strafe, 18 },
+                    { Stat.Steering, 0 },
+                    { Stat.Stability, 6 }
+                })
+        },
+        {
+            "ESKO", new ShipComponent(ComponentType.ElectronicStabilityControl, "Signature Koeniggswerth", "ESKO", ComponentClass.Purple, 99,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, -4 },
+                    { Stat.Thrust, 0 },
+                    { Stat.Durability, 0 },
+                    { Stat.Strafe, 22 },
+                    { Stat.Steering, 0 },
+                    { Stat.Stability, 5 }
+                })
+        },
+        {
+            "ESMA", new ShipComponent(ComponentType.ElectronicStabilityControl, "Signature Mantis", "ESMA", ComponentClass.Purple, 95,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, -1 },
+                    { Stat.Thrust, 0 },
+                    { Stat.Durability, -6 },
+                    { Stat.Strafe, 21 },
+                    { Stat.Steering, 0 },
+                    { Stat.Stability, 10 }
+                })
+        },
+        {
+            "ESAS", new ShipComponent(ComponentType.ElectronicStabilityControl, "Signature Asera", "ESAS", ComponentClass.Purple, 97,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, -3 },
+                    { Stat.Thrust, 0 },
+                    { Stat.Durability, -3 },
+                    { Stat.Strafe, 19 },
+                    { Stat.Steering, 0 },
+                    { Stat.Stability, 10 }
+                })
+        },
     };
 }
