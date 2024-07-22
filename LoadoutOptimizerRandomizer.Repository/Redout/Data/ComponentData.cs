@@ -9,8 +9,8 @@ public static class ComponentData
     public static readonly Dictionary<string, ShipComponent> Components = new()
     {
         // Ships.
-		// Power rating can be cheesed to be the same for all ships using loadout bug.
-		// TODO: Add setting to set all ships to a specific power to accommodate this cheat.
+        // Power rating can be cheesed to be the same for all ships using loadout bug.
+        // TODO: Add setting to set all ships to a specific power to accommodate this cheat.
         {
             "LUN", new ShipComponent(ComponentType.Ship, "Lunare", "LUN", ComponentClass.None, 184,
                 new Dictionary<Stat, int>
@@ -326,7 +326,8 @@ public static class ComponentData
                 })
         },
         {
-            "PSCO", new ShipComponent(ComponentType.Propulsor, "Signature Conqueror", "PSCO", ComponentClass.Purple, 237,
+            "PSCO", new ShipComponent(ComponentType.Propulsor, "Signature Conqueror", "PSCO", ComponentClass.Purple,
+                237,
                 new Dictionary<Stat, int>
                 {
                     { Stat.Speed, 22 },
@@ -337,7 +338,7 @@ public static class ComponentData
                     { Stat.Stability, 0 }
                 })
         },
-        
+
         // Stabilizers
         {
             "MGA", new ShipComponent(ComponentType.Stabilizer, "BASE", "MGA", ComponentClass.White, 0,
@@ -543,7 +544,7 @@ public static class ComponentData
                     { Stat.Stability, 22 }
                 })
         },
-        
+
         // Rudders
         {
             "OKS", new ShipComponent(ComponentType.Rudder, "BASE", "OKS", ComponentClass.White, 0,
@@ -749,7 +750,7 @@ public static class ComponentData
                     { Stat.Stability, -5 }
                 })
         },
-        
+
         // Hulls
         {
             "QIQ", new ShipComponent(ComponentType.Hull, "BASE", "QIQ", ComponentClass.White, 0,
@@ -931,7 +932,7 @@ public static class ComponentData
                     { Stat.Stability, 0 }
                 })
         },
-        
+
         // Intercoolers
         {
             "TLC", new ShipComponent(ComponentType.Intercooler, "BASE", "TLC", ComponentClass.White, 0,
@@ -1066,7 +1067,8 @@ public static class ComponentData
                 })
         },
         {
-            "ISBE", new ShipComponent(ComponentType.Intercooler, "Signature Behemoth", "ISBE", ComponentClass.Purple, 190,
+            "ISBE", new ShipComponent(ComponentType.Intercooler, "Signature Behemoth", "ISBE", ComponentClass.Purple,
+                190,
                 new Dictionary<Stat, int>
                 {
                     { Stat.Speed, -8 },
@@ -1078,7 +1080,8 @@ public static class ComponentData
                 })
         },
         {
-            "ISES", new ShipComponent(ComponentType.Intercooler, "Signature ESA-AGR", "ISES", ComponentClass.Purple, 189,
+            "ISES", new ShipComponent(ComponentType.Intercooler, "Signature ESA-AGR", "ISES", ComponentClass.Purple,
+                189,
                 new Dictionary<Stat, int>
                 {
                     { Stat.Speed, -1 },
@@ -1090,7 +1093,8 @@ public static class ComponentData
                 })
         },
         {
-            "ISKO", new ShipComponent(ComponentType.Intercooler, "Signature Koeniggswerth", "ISKO", ComponentClass.Purple, 189,
+            "ISKO", new ShipComponent(ComponentType.Intercooler, "Signature Koeniggswerth", "ISKO",
+                ComponentClass.Purple, 189,
                 new Dictionary<Stat, int>
                 {
                     { Stat.Speed, -5 },
@@ -1113,7 +1117,7 @@ public static class ComponentData
                     { Stat.Stability, -8 }
                 })
         },
-        
+
         // Electronic Stability Controls
         {
             "NBL", new ShipComponent(ComponentType.ElectronicStabilityControl, "BASE", "NBL", ComponentClass.White, 0,
@@ -1128,7 +1132,8 @@ public static class ComponentData
                 })
         },
         {
-            "TENGU", new ShipComponent(ComponentType.ElectronicStabilityControl, "Tengu", "TENGU", ComponentClass.Green, 15,
+            "TENGU", new ShipComponent(ComponentType.ElectronicStabilityControl, "Tengu", "TENGU", ComponentClass.Green,
+                15,
                 new Dictionary<Stat, int>
                 {
                     { Stat.Speed, 0 },
@@ -1152,7 +1157,8 @@ public static class ComponentData
                 })
         },
         {
-            "TH60", new ShipComponent(ComponentType.ElectronicStabilityControl, "Theta60", "TH60", ComponentClass.Green, 25,
+            "TH60", new ShipComponent(ComponentType.ElectronicStabilityControl, "Theta60", "TH60", ComponentClass.Green,
+                25,
                 new Dictionary<Stat, int>
                 {
                     { Stat.Speed, 0 },
@@ -1164,7 +1170,8 @@ public static class ComponentData
                 })
         },
         {
-            "AGIZ", new ShipComponent(ComponentType.ElectronicStabilityControl, "AgileZ", "AGIZ", ComponentClass.Green, 30,
+            "AGIZ", new ShipComponent(ComponentType.ElectronicStabilityControl, "AgileZ", "AGIZ", ComponentClass.Green,
+                30,
                 new Dictionary<Stat, int>
                 {
                     { Stat.Speed, 0 },
@@ -1176,7 +1183,8 @@ public static class ComponentData
                 })
         },
         {
-            "AGIX", new ShipComponent(ComponentType.ElectronicStabilityControl, "AgileX", "AGIZ", ComponentClass.Yellow, 40,
+            "AGIX", new ShipComponent(ComponentType.ElectronicStabilityControl, "AgileX", "AGIZ", ComponentClass.Yellow,
+                40,
                 new Dictionary<Stat, int>
                 {
                     { Stat.Speed, 0 },
@@ -1188,7 +1196,8 @@ public static class ComponentData
                 })
         },
         {
-            "ET61", new ShipComponent(ComponentType.ElectronicStabilityControl, "Eta61", "ET61", ComponentClass.Yellow, 40,
+            "ET61", new ShipComponent(ComponentType.ElectronicStabilityControl, "Eta61", "ET61", ComponentClass.Yellow,
+                40,
                 new Dictionary<Stat, int>
                 {
                     { Stat.Speed, 0 },
@@ -1200,7 +1209,8 @@ public static class ComponentData
                 })
         },
         {
-            "AGIK", new ShipComponent(ComponentType.ElectronicStabilityControl, "AgileK", "AGIK", ComponentClass.Yellow, 55,
+            "AGIK", new ShipComponent(ComponentType.ElectronicStabilityControl, "AgileK", "AGIK", ComponentClass.Yellow,
+                55,
                 new Dictionary<Stat, int>
                 {
                     { Stat.Speed, 0 },
@@ -1224,7 +1234,8 @@ public static class ComponentData
                 })
         },
         {
-            "SG69", new ShipComponent(ComponentType.ElectronicStabilityControl, "Sigma69", "SG69", ComponentClass.Yellow, 55,
+            "SG69", new ShipComponent(ComponentType.ElectronicStabilityControl, "Sigma69", "SG69",
+                ComponentClass.Yellow, 55,
                 new Dictionary<Stat, int>
                 {
                     { Stat.Speed, 0 },
@@ -1236,7 +1247,8 @@ public static class ComponentData
                 })
         },
         {
-            "PI70", new ShipComponent(ComponentType.ElectronicStabilityControl, "Phi70", "PI70", ComponentClass.Pink, 80,
+            "PI70", new ShipComponent(ComponentType.ElectronicStabilityControl, "Phi70", "PI70", ComponentClass.Pink,
+                80,
                 new Dictionary<Stat, int>
                 {
                     { Stat.Speed, 0 },
@@ -1260,7 +1272,8 @@ public static class ComponentData
                 })
         },
         {
-            "AGIY", new ShipComponent(ComponentType.ElectronicStabilityControl, "AgileY", "AGIY", ComponentClass.Pink, 90,
+            "AGIY", new ShipComponent(ComponentType.ElectronicStabilityControl, "AgileY", "AGIY", ComponentClass.Pink,
+                90,
                 new Dictionary<Stat, int>
                 {
                     { Stat.Speed, 0 },
@@ -1272,7 +1285,8 @@ public static class ComponentData
                 })
         },
         {
-            "ESLU", new ShipComponent(ComponentType.ElectronicStabilityControl, "Signature Lunare", "ESLU", ComponentClass.Purple, 96,
+            "ESLU", new ShipComponent(ComponentType.ElectronicStabilityControl, "Signature Lunare", "ESLU",
+                ComponentClass.Purple, 96,
                 new Dictionary<Stat, int>
                 {
                     { Stat.Speed, -1 },
@@ -1284,7 +1298,8 @@ public static class ComponentData
                 })
         },
         {
-            "ESKO", new ShipComponent(ComponentType.ElectronicStabilityControl, "Signature Koeniggswerth", "ESKO", ComponentClass.Purple, 99,
+            "ESKO", new ShipComponent(ComponentType.ElectronicStabilityControl, "Signature Koeniggswerth", "ESKO",
+                ComponentClass.Purple, 99,
                 new Dictionary<Stat, int>
                 {
                     { Stat.Speed, -4 },
@@ -1296,7 +1311,8 @@ public static class ComponentData
                 })
         },
         {
-            "ESMA", new ShipComponent(ComponentType.ElectronicStabilityControl, "Signature Mantis", "ESMA", ComponentClass.Purple, 95,
+            "ESMA", new ShipComponent(ComponentType.ElectronicStabilityControl, "Signature Mantis", "ESMA",
+                ComponentClass.Purple, 95,
                 new Dictionary<Stat, int>
                 {
                     { Stat.Speed, -1 },
@@ -1308,7 +1324,8 @@ public static class ComponentData
                 })
         },
         {
-            "ESAS", new ShipComponent(ComponentType.ElectronicStabilityControl, "Signature Asera", "ESAS", ComponentClass.Purple, 97,
+            "ESAS", new ShipComponent(ComponentType.ElectronicStabilityControl, "Signature Asera", "ESAS",
+                ComponentClass.Purple, 97,
                 new Dictionary<Stat, int>
                 {
                     { Stat.Speed, -3 },
@@ -1318,6 +1335,6 @@ public static class ComponentData
                     { Stat.Steering, 0 },
                     { Stat.Stability, 10 }
                 })
-        },
+        }
     };
 }
