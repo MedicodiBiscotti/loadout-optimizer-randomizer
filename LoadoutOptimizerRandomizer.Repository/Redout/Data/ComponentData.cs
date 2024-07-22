@@ -557,6 +557,198 @@ public static class ComponentData
                     { Stat.Stability, 0 }
                 })
         },
+        {
+            "CAST", new ShipComponent(ComponentType.Rudder, "Castellanus", "CAST", ComponentClass.Green, 18,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, 0 },
+                    { Stat.Thrust, 0 },
+                    { Stat.Durability, 0 },
+                    { Stat.Strafe, 0 },
+                    { Stat.Steering, 3 },
+                    { Stat.Stability, 0 }
+                })
+        },
+        {
+            "SVTX", new ShipComponent(ComponentType.Rudder, "Svelto X", "SVTX", ComponentClass.Green, 23,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, 0 },
+                    { Stat.Thrust, 0 },
+                    { Stat.Durability, 0 },
+                    { Stat.Strafe, 1 },
+                    { Stat.Steering, 3 },
+                    { Stat.Stability, 0 }
+                })
+        },
+        {
+            "LVLK", new ShipComponent(ComponentType.Rudder, "Lovelock", "LVLK", ComponentClass.Green, 29,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, 0 },
+                    { Stat.Thrust, 0 },
+                    { Stat.Durability, 0 },
+                    { Stat.Strafe, 1 },
+                    { Stat.Steering, 4 },
+                    { Stat.Stability, 0 }
+                })
+        },
+        {
+            "STRA", new ShipComponent(ComponentType.Rudder, "Stratus", "STRA", ComponentClass.Green, 30,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, 0 },
+                    { Stat.Thrust, 0 },
+                    { Stat.Durability, 0 },
+                    { Stat.Strafe, 0 },
+                    { Stat.Steering, 5 },
+                    { Stat.Stability, 0 }
+                })
+        },
+        {
+            "SVTK", new ShipComponent(ComponentType.Rudder, "Svelto K", "SVTK", ComponentClass.Yellow, 44,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, 0 },
+                    { Stat.Thrust, 0 },
+                    { Stat.Durability, 0 },
+                    { Stat.Strafe, 4 },
+                    { Stat.Steering, 4 },
+                    { Stat.Stability, 0 }
+                })
+        },
+        {
+            "DRWN", new ShipComponent(ComponentType.Rudder, "Darwin", "DRWN", ComponentClass.Yellow, 47,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, 0 },
+                    { Stat.Thrust, 0 },
+                    { Stat.Durability, 0 },
+                    { Stat.Strafe, 1 },
+                    { Stat.Steering, 7 },
+                    { Stat.Stability, 0 }
+                })
+        },
+        {
+            "NIMB", new ShipComponent(ComponentType.Rudder, "Nimbus", "NIMB", ComponentClass.Yellow, 54,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, 0 },
+                    { Stat.Thrust, 0 },
+                    { Stat.Durability, 0 },
+                    { Stat.Strafe, 0 },
+                    { Stat.Steering, 9 },
+                    { Stat.Stability, 0 }
+                })
+        },
+        {
+            "HRPR", new ShipComponent(ComponentType.Rudder, "Harper", "HRPR", ComponentClass.Yellow, 64,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, 0 },
+                    { Stat.Thrust, 0 },
+                    { Stat.Durability, 0 },
+                    { Stat.Strafe, 2 },
+                    { Stat.Steering, 9 },
+                    { Stat.Stability, 0 }
+                })
+        },
+        {
+            "TORN", new ShipComponent(ComponentType.Rudder, "Tornado", "TORN", ComponentClass.Yellow, 65,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, 0 },
+                    { Stat.Thrust, 0 },
+                    { Stat.Durability, 0 },
+                    { Stat.Strafe, 1 },
+                    { Stat.Steering, 10 },
+                    { Stat.Stability, 0 }
+                })
+        },
+        {
+            "SVLY", new ShipComponent(ComponentType.Rudder, "Svelto Y", "SVLY", ComponentClass.Pink, 111,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, 0 },
+                    { Stat.Thrust, 0 },
+                    { Stat.Durability, 0 },
+                    { Stat.Strafe, 9 },
+                    { Stat.Steering, 11 },
+                    { Stat.Stability, 0 }
+                })
+        },
+        {
+            "TSLY", new ShipComponent(ComponentType.Rudder, "Tansley", "TSLY", ComponentClass.Pink, 109,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, 0 },
+                    { Stat.Thrust, 0 },
+                    { Stat.Durability, 0 },
+                    { Stat.Strafe, 5 },
+                    { Stat.Steering, 14 },
+                    { Stat.Stability, 0 }
+                })
+        },
+        {
+            "HURR", new ShipComponent(ComponentType.Rudder, "Hurricane", "HURR", ComponentClass.Pink, 108,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, 0 },
+                    { Stat.Thrust, 0 },
+                    { Stat.Durability, 0 },
+                    { Stat.Strafe, 0 },
+                    { Stat.Steering, 18 },
+                    { Stat.Stability, 0 }
+                })
+        },
+        {
+            "RSWR", new ShipComponent(ComponentType.Rudder, "Signature Wallace", "RSWR", ComponentClass.Purple, 119,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, 0 },
+                    { Stat.Thrust, 0 },
+                    { Stat.Durability, -6 },
+                    { Stat.Strafe, 10 },
+                    { Stat.Steering, 22 },
+                    { Stat.Stability, -3 }
+                })
+        },
+        {
+            "RSLU", new ShipComponent(ComponentType.Rudder, "Signature Lunare", "RSLU", ComponentClass.Purple, 119,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, 0 },
+                    { Stat.Thrust, 0 },
+                    { Stat.Durability, -3 },
+                    { Stat.Strafe, 8 },
+                    { Stat.Steering, 18 },
+                    { Stat.Stability, -1 }
+                })
+        },
+        {
+            "RSBE", new ShipComponent(ComponentType.Rudder, "Signature Behemoth", "RSBE", ComponentClass.Purple, 122,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, 0 },
+                    { Stat.Thrust, 0 },
+                    { Stat.Durability, -1 },
+                    { Stat.Strafe, 3 },
+                    { Stat.Steering, 20 },
+                    { Stat.Stability, -1 }
+                })
+        },
+        {
+            "RSES", new ShipComponent(ComponentType.Rudder, "Signature ESA-AGR", "RSES", ComponentClass.Purple, 121,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, 0 },
+                    { Stat.Thrust, 0 },
+                    { Stat.Durability, 0 },
+                    { Stat.Strafe, 10 },
+                    { Stat.Steering, 16 },
+                    { Stat.Stability, -5 }
+                })
+        },
         
         // Hulls
         {
