@@ -351,6 +351,198 @@ public static class ComponentData
                     { Stat.Stability, 0 }
                 })
         },
+        {
+            "AL55", new ShipComponent(ComponentType.Stabilizer, "Alfa55", "AL55", ComponentClass.Green, 10,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, 0 },
+                    { Stat.Thrust, 0 },
+                    { Stat.Durability, 0 },
+                    { Stat.Strafe, 0 },
+                    { Stat.Steering, 0 },
+                    { Stat.Stability, 2 }
+                })
+        },
+        {
+            "BE55", new ShipComponent(ComponentType.Stabilizer, "Beta55", "BE55", ComponentClass.Green, 20,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, 0 },
+                    { Stat.Thrust, 0 },
+                    { Stat.Durability, 0 },
+                    { Stat.Strafe, 0 },
+                    { Stat.Steering, 0 },
+                    { Stat.Stability, 4 }
+                })
+        },
+        {
+            "ALTO", new ShipComponent(ComponentType.Stabilizer, "Alto", "ALTO", ComponentClass.Green, 22,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, 0 },
+                    { Stat.Thrust, 0 },
+                    { Stat.Durability, 0 },
+                    { Stat.Strafe, 0 },
+                    { Stat.Steering, 2 },
+                    { Stat.Stability, 2 }
+                })
+        },
+        {
+            "RIGL", new ShipComponent(ComponentType.Stabilizer, "Rigel", "RIGL", ComponentClass.Green, 32,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, 0 },
+                    { Stat.Thrust, 0 },
+                    { Stat.Durability, 0 },
+                    { Stat.Strafe, 0 },
+                    { Stat.Steering, 2 },
+                    { Stat.Stability, 4 }
+                })
+        },
+        {
+            "CIRR", new ShipComponent(ComponentType.Stabilizer, "Cirrus", "CIRR", ComponentClass.Yellow, 54,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, 0 },
+                    { Stat.Thrust, 0 },
+                    { Stat.Durability, 0 },
+                    { Stat.Strafe, 0 },
+                    { Stat.Steering, 4 },
+                    { Stat.Stability, 6 }
+                })
+        },
+        {
+            "BLLX", new ShipComponent(ComponentType.Stabilizer, "Bellatrix", "BLLX", ComponentClass.Yellow, 52,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, 0 },
+                    { Stat.Thrust, 0 },
+                    { Stat.Durability, 0 },
+                    { Stat.Strafe, 0 },
+                    { Stat.Steering, 2 },
+                    { Stat.Stability, 8 }
+                })
+        },
+        {
+            "GA60", new ShipComponent(ComponentType.Stabilizer, "Gamma60", "GA60", ComponentClass.Yellow, 60,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, 0 },
+                    { Stat.Thrust, 0 },
+                    { Stat.Durability, 0 },
+                    { Stat.Strafe, 0 },
+                    { Stat.Steering, 0 },
+                    { Stat.Stability, 12 }
+                })
+        },
+        {
+            "MTKA", new ShipComponent(ComponentType.Stabilizer, "Mintaka", "MTKA", ComponentClass.Yellow, 62,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, 0 },
+                    { Stat.Thrust, 0 },
+                    { Stat.Durability, 0 },
+                    { Stat.Strafe, 0 },
+                    { Stat.Steering, 2 },
+                    { Stat.Stability, 10 }
+                })
+        },
+        {
+            "CUMU", new ShipComponent(ComponentType.Stabilizer, "Cumulus", "CUMU", ComponentClass.Yellow, 66,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, 0 },
+                    { Stat.Thrust, 0 },
+                    { Stat.Durability, 0 },
+                    { Stat.Strafe, 0 },
+                    { Stat.Steering, 6 },
+                    { Stat.Stability, 6 }
+                })
+        },
+        {
+            "STRM", new ShipComponent(ComponentType.Stabilizer, "Storm", "STRM", ComponentClass.Pink, 110,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, 0 },
+                    { Stat.Thrust, 0 },
+                    { Stat.Durability, 0 },
+                    { Stat.Strafe, 0 },
+                    { Stat.Steering, 10 },
+                    { Stat.Stability, 10 }
+                })
+        },
+        {
+            "BTLG", new ShipComponent(ComponentType.Stabilizer, "Betelgeuse", "BTLG", ComponentClass.Pink, 106,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, 0 },
+                    { Stat.Thrust, 0 },
+                    { Stat.Durability, 0 },
+                    { Stat.Strafe, 0 },
+                    { Stat.Steering, 6 },
+                    { Stat.Stability, 14 }
+                })
+        },
+        {
+            "ZE70", new ShipComponent(ComponentType.Stabilizer, "Zeta70", "ZE70", ComponentClass.Pink, 102,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, 0 },
+                    { Stat.Thrust, 0 },
+                    { Stat.Durability, 0 },
+                    { Stat.Strafe, 0 },
+                    { Stat.Steering, 2 },
+                    { Stat.Stability, 18 }
+                })
+        },
+        {
+            "SSWR", new ShipComponent(ComponentType.Stabilizer, "Signature Wallace", "SSWR", ComponentClass.Purple, 121,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, -2 },
+                    { Stat.Thrust, -2 },
+                    { Stat.Durability, 0 },
+                    { Stat.Strafe, 0 },
+                    { Stat.Steering, 10 },
+                    { Stat.Stability, 21 }
+                })
+        },
+        {
+            "SSHE", new ShipComponent(ComponentType.Stabilizer, "Signature Helix", "SSHE", ComponentClass.Purple, 120,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, -1 },
+                    { Stat.Thrust, -1 },
+                    { Stat.Durability, 0 },
+                    { Stat.Strafe, 0 },
+                    { Stat.Steering, 7 },
+                    { Stat.Stability, 20 }
+                })
+        },
+        {
+            "SSES", new ShipComponent(ComponentType.Stabilizer, "Signature ESA-AGR", "SSES", ComponentClass.Purple, 122,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, -4 },
+                    { Stat.Thrust, 0 },
+                    { Stat.Durability, 0 },
+                    { Stat.Strafe, 0 },
+                    { Stat.Steering, 9 },
+                    { Stat.Stability, 16 }
+                })
+        },
+        {
+            "SSBR", new ShipComponent(ComponentType.Stabilizer, "Signature Buran", "SSBR", ComponentClass.Purple, 118,
+                new Dictionary<Stat, int>
+                {
+                    { Stat.Speed, 0 },
+                    { Stat.Thrust, -4 },
+                    { Stat.Durability, 0 },
+                    { Stat.Strafe, 0 },
+                    { Stat.Steering, 8 },
+                    { Stat.Stability, 22 }
+                })
+        },
         
         // Rudders
         {
